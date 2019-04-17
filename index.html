@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>
+        Speculative contacts used to solve circle-circle collisions. Algorithm based on <a href="https://wildbunny.co.uk/blog/2011/03/25/speculative-contacts-an-continuous-collision-engine-approach-part-1/">this article</a>.
+        <br>
+        Press keys [1-9] to add particles of varying sizes.
+        <br>
+        Press [up arrow] or [down arrow] to increase/decrease solver iterations.
+        <br>
+        Press [backspace] to remove all particles and contacts.
+        <br>
+        Press [enter] to pause/reset forces on each particle (gravity, air drag).
+    </p>
+    <canvas id="canvas" width="565" height="672"></canvas>
+    <p id="iterations">Solver iterations: 0</p>
+    <p id="particles">Particles: 0</p>
+    <p id="contacts">Contacts: 0</p>
+    <p id="solvedContacts">Contacts solved in this timestep: 0</p>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
