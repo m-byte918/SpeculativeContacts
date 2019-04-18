@@ -193,6 +193,7 @@ var mouse = new Vec2(0, 0);
 var lastAirDrag = airDrag;
 var lastGravity = gravity;
 window.addEventListener('keydown', function (e) {
+    e.preventDefault();
     var r = 0;
     switch (e.keyCode) {
         // Backspace
